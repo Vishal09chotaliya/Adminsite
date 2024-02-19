@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: black;
+  justify-content: center;
+}
+
+.navbar .collapse {
+  justify-content: end;
+  margin-right: 80px;
+}
+
+.navbar img {
+  height: 70px;
+}
+
+.navbar h6 {
+  color: white;
+  margin-top: 10px;
+}
+
+.navbar i {
+  margin: 8px;
+}
+
+
+body {
+  background-color: lightpink;
+}
+
+/* stsrt login  */
+
+
+
+.login-form {
+  background-color: white;
+  margin: 47px 480px;
+  padding: 20px;
+  box-shadow: 1px -1px 24px -13px rgba(0, 0, 0, 0.75);
+  margin-bottom: 100px;
+}
+
+.login-form input {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+}
+
+.login-form .btn {
+  background-color: lightpink;
+  margin: 10px;
+  width: 30%;
+}
+
+.login-form .btn:hover {
+  background-color: rgb(251, 123, 142);
+}
+
+
+.login-form i {
+  cursor: pointer;
+}
+
+@media (max-width: 1230px) {
+  .login-form {
+    width: 70%;
+    margin: 46px 12%;
+  }
+}
+
+/* start tables  */
+
+@media (max-width: 1280px) {
+  .table-striped {
+    width: 600px;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .login-form{
+    margin-bottom: 100px;
+  }
+}
+
+/* start change password */
+
+.arrow a i {
+  margin: 10px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.arrow a {
+  position: fixed;
+  border-radius: 50%;
+}
+
+.arrow a:hover {
+  background-color: #b9a8ab;
+}
+
+/* home page starte  */
+
+.container .dropdown {
+  display: inline-flex;
+}
+
+.container .dropdown {
+  margin: 3px;
+}
+
+
+/* footer  */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+.footer p {
+  font-size: 1.5rem;
+}
+
+/* table  */
+
+.container td img {
+  height: 200px;
+  width: 200px;
+}
+
+.table-hover{
+  margin-bottom: 100px;
+}
+
+.table{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px -1px 24px -13px rgba(0, 0, 0, 0.75);
+}
+
+/* start box  */
+
+.container .box{
+  width: 25%;
+  /* height: 150px; */
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: white;
+  transition: background-color 0.7s ease-out 100ms
+  /* box-shadow: 1px -1px 24px -13px rgba(0, 0, 0, 0.75); */
+}
+
+.container .box:hover{
+  background-color: #39529bcc;
+  /* color: white; */
+  box-shadow: 1px -1px 24px -13px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 500px) {
+  .container .box{
+    width: auto;
+  }
+}
